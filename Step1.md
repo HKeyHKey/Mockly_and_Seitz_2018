@@ -21,7 +21,7 @@ Written 9195453 spots for SRR959756
 Read 30860297 spots for SRR959757  
 Written 30860297 spots for SRR959757
 
-# Conclusion:
+# Note:
 
 It turns out that SRR959756 contains 50-nt long reads while SRR959757 contains 100-nt long reads.
 
