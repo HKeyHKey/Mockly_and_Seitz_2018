@@ -1,8 +1,10 @@
+# Command:
+
 According to Helwak et al.'s Suppl. Table S6, the pre-adenylated 3´ linker is AppTGGAATTCTCGGGTGCCAAG/ddC/. Verification, and adapter trimming:
 
 `for input in SRR959756.fastq #SRR959757.fastq;do ~/Annotation_pipeline/cutadapt-1.4.2/bin/cutadapt -a TGGAATTCTCGGGTGCCAAG $input -o trimmed_$input;done`
 
-Output:
+# Output:
 
 cutadapt version 1.4.2  
 Command line parameters: -a TGGAATTCTCGGGTGCCAAG SRR959756.fastq -o trimmed_SRR959756.fastq  
@@ -190,5 +192,7 @@ length  count   expect  max.err error counts
 95  6735    0.0 2   0 6129 606  
 96  4018    0.0 2   0 0 4018  
 97  1425    0.0 2   0 0 1425  
+
+# Conclusion:
 
 The 3´ adapter indeed appears to be AppTGGAATTCTCGGGTGCCAAG/ddC/.
