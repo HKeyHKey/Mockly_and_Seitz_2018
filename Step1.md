@@ -2,11 +2,11 @@ Data download according to the Supplemental Information of Helwak et al. (2013),
 There are two SRA runs for that GEO sample: [SRR959756](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR959756 "SRA link for SRR959756") and [SRR959757](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR959757 "SRA link for SRR959757").
 
 Extraction of fastq files:
-    fastq-dump SRR959756
+    `fastq-dump SRR959756`
 Output:
 Read 9195453 spots for SRR959756
 Written 9195453 spots for SRR959756
-    fastq-dump SRR959757
+    `fastq-dump SRR959757`
 Output:
 Read 30860297 spots for SRR959757
 Written 30860297 spots for SRR959757
