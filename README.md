@@ -1,5 +1,5 @@
 # Mockly_and_Seitz_2018
-Instructions, scripts and intermediary data for the generation of Table 1 in Mockly and Seitz (2018)
+Instructions, scripts and intermediary data for the generation of Table 1 in [Mockly and Seitz (Methods in Molecular Biology, 2018)](https://pubmed.ncbi.nlm.nih.gov/30963499/).
 
 # Instruction files:
 
